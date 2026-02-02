@@ -31,7 +31,7 @@ const App: React.FC = () => {
                     VISION
                   </span>
                  <p className="text-xs font-bold uppercase tracking-widest opacity-80 max-w-xs mt-1 leading-relaxed">
-                 세렌에서 진행하고 있는 프로젝트를 소개합니다
+                 세렌이 설계하고 실행해 온 프로젝트 구조를 소개합니다.
                  </p>
                 </h2>
               </div>
@@ -50,11 +50,13 @@ const App: React.FC = () => {
 
             {/* Right: Text Description */}
             <div className="md:col-span-4 flex flex-col order-2 md:order-3">
-              <p className="text-xl md:text-2xl font-medium leading-relaxed text-black/90">
-                세렌(SEREN)은 기술과 철학이 만나는 곳입니다. 1인 법인 기반의 다각화 비즈니스 구조를 통해 
-                <span className="italic font-serif-display text-black"> 콘텐츠 하나가 브랜드가 되고, 기술을 만나 시스템으로 완성되는 과정 </span> 
-                자체를 증명합니다.
-              </p>
+            <p className="text-lg md:text-2xl font-normal leading-relaxed text-black/80 tracking-tight">
+            <span className="font-black text-[#1040DD]">세렌</span>은 
+            <span className="font-semibold text-black/90"> AI</span>를 활용해 아이디어를 
+            <span className="font-semibold text-black/90"> 실행 가능한 구조</span>로 만들고,<br className="hidden md:block" />
+            그 구조를 <span className="font-bold text-black/90">콘텐츠·교육·IP·사업</span>으로 확장하는 브랜드입니다.<br /><br className="md:hidden" />
+            우리는 혼자서도 <span className="font-black text-black/90">지속 가능한 창작</span>과 <span className="font-black text-black/90">성장</span>을 가능하게 하는 방법을 설계합니다.
+            </p>
             </div>
           </div>
         </section>

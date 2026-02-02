@@ -6,9 +6,9 @@ export const PILLARS: Project[] = [
   {
     id: 1,
     category: "SEREN BOOKS",
-    title: "1. AI 기반 출판 및 작가 양성",
-    description: "AI 기술을 활용해 출판의 문턱을 낮추고 지식의 자산화를 돕습니다.",
-    fullDescription: "AI 기술을 활용해 전통적인 출판 프로세스를 혁신합니다. 지식의 자산화를 돕는 시스템을 구축하여 누구나 작가가 될 수 있는 생태계를 만듭니다.",
+    title: "1. 도서 출판 및 작가 양성",
+    description: "출판의 문턱을 낮추고 지식의 자산화를 돕습니다.",
+    fullDescription: "AI 기술을 활용하여 지식의 자산화를 돕는 시스템을 구축합니다. 세렌북스는 누구나 작가가 될 수 있는 생태계를 만듭니다.",
     achievements: [
       "세렌북스 출판사 운영 및 ISBN 발급 시스템 구축",
       "교보문고 eBook 유통 및 자체 쇼핑몰/스마트스토어 운영",

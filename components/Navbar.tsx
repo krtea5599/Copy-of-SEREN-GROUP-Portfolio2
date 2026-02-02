@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full z-[100] flex justify-between items-center px-6 md:px-10 py-8 bg-white">
+      <nav className="fixed top-0 left-0 w-full z-[100] flex justify-between items-center px-6 md:px-10 py-6 bg-white/90">
         <div className="text-[10px] md:text-xs font-black tracking-tighter uppercase leading-tight text-black">
           PORTFOLIO<br />
           OF SEREN COMPANY
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
             {isOpen ? 'CLOSE' : 'MENU'}
           </span>
           <div className="w-8 h-8 md:w-10 md:h-10 border border-black flex items-center justify-center overflow-hidden">
-             <div className={`w-full h-full bg-blue-500 transition-transform duration-500 ${isOpen ? 'translate-y-0' : 'translate-y-full'}`}></div>
+             <div className={`w-full h-full bg-[#3B82F6] transition-transform duration-500 ${isOpen ? 'translate-y-0' : 'translate-y-full'}`}></div>
           </div>
         </button>
       </nav>
