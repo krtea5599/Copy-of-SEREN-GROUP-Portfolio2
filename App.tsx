@@ -39,7 +39,7 @@ const App: React.FC = () => {
 
             {/* Middle: Featured Image */}
             <div className="md:col-span-4 order-3 md:order-2">
-              <div className="relative aspect-[3/4] overflow-hidden border border-black group">
+              <div className="relative aspect-[3/2] overflow-hidden border border-black group">
                 <img 
                   src={VISION_IMAGE} 
                   alt="Vision Visual" 

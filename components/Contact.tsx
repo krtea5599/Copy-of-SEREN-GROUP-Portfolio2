@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
                 </span>
           </h2>
           <p className="text-xs font-bold uppercase tracking-widest opacity-80 max-w-xs mt-1 leading-relaxed">
-            세렌과 함께 새로운 브랜드 세계관을 확장하고 싶으신 분들의 연락을 기다립니다.
+            세렌과 함께 브랜드의 확장을 시작해 보세요.
           </p>
         </div>
         
@@ -107,22 +107,24 @@ const Contact: React.FC = () => {
               placeholder="문의 내용 작성해주세요"
             />
           </div>
-          <div className="flex flex-col items-start gap-4">
+          <div className="flex flex-col items-center gap-6 w-full">
             <button 
               type="submit"
               disabled={status === 'loading'}
-              className={`self-start px-10 py-4 text-[10px] font-bold uppercase tracking-[0.2em] rounded-full border border-black transition-all ${
+              className={`self-start px-12 py-4 text-[12px] font-bold uppercase tracking-[0.2em] rounded-full border border-black transition-all ${
                 status === 'loading' 
                 ? 'bg-gray-200 text-gray-500 cursor-not-allowed' 
-                : 'bg-black text-white hover:bg-white hover:text-black'
+                : 'bg-black text-white hover:bg-white hover:text-black w-full md:w-auto' // 모바일에선 꽉 차게, 데스크톱에선 적당하게
               }`}
             >
-              {status === 'loading' ? 'Sending...' : 'Send Message'}
+              {status === 'loading' ? 'Sending...' : '문의합니다'}
             </button>
             
             {status === 'success' && (
-              <p className="text-[10px] font-bold text-green-600 uppercase tracking-wider animate-pulse">
-                메시지가 성공적으로 전송되었습니다!
+              <p className="text-sm font-bold text-green-600 uppercase tracking-wider animate-pulse">
+                문의해 주셔서 감사합니다.<br />
+                남겨주신 내용을 확인한 후, 순차적으로 연락드리겠습니다.<br />
+                세렌에 관심 가져주셔서 감사합니다.<br />
               </p>
             )}
             {status === 'error' && (
