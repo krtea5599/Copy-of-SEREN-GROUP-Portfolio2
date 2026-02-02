@@ -72,7 +72,7 @@ const App: React.FC = () => {
                     Project
                   </span>
                   <p className="text-xs font-bold uppercase tracking-widest opacity-80 max-w-xs mt-6 leading-relaxed self-end">
-                 세렌에서 진행하고 있는<br /> 프로젝트를 소개합니다
+                 세렌에서 진행하고 있는 프로젝트를 소개합니다
                  </p>
                 </h2>
           </div>
