@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Testimonial: React.FC = () => {
@@ -13,17 +14,12 @@ const Testimonial: React.FC = () => {
            바로 세렌(SEREN)입니다."
         </h2>
         <div className="flex flex-col items-center">
-          <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-[#3B82F6] shadow-lg">
-            <img 
-              src="https://raw.githubusercontent.com/krtea5599/SEREN-Portfolio/91d191264acf69070659dafe564266d495643ead/%EC%9D%B4%EC%A0%95%ED%95%9C%20%ED%94%84%EB%A1%9C%ED%95%84.jpg" 
-              alt="주식회사 세렌 대표" 
-              className="w-full h-full object-cover" 
-            />
+          <div className="w-16 h-16 rounded-full overflow-hidden mb-4 border-2 border-[#E0D7FF]">
+         <img src="https://i.ifh.cc/b1VB2D.jpg" alt="CEO" className="w-full h-full object-cover" />
           </div>
-          <span className="text-sm font-black uppercase tracking-widest text-[#3B82F6]">주식회사 세렌 대표</span>
-          <span className="text-[10px] opacity-60 uppercase tracking-[0.15em] mt-2">
-            Experience Designer & 1-Person Brand Strategist
-          </span>
+          <span className="text-xs font-bold uppercase tracking-widest">Seren Group Founder</span>
+          <span className="text-[10px] opacity-60 uppercase tracking-[0.15em] mt-1">
+          1-Person Brand Company Experience Designer</span>
         </div>
       </div>
     </section>

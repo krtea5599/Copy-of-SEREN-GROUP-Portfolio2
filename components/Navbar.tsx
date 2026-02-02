@@ -30,20 +30,20 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full z-[100] flex justify-between items-center px-6 md:px-12 py-8 bg-transparent">
+      <nav className="fixed top-0 left-0 w-full z-[100] flex justify-between items-center px-6 md:px-10 py-8 bg-white">
         <div className="text-[10px] md:text-xs font-black tracking-tighter uppercase leading-tight text-black">
           PORTFOLIO<br />
           OF SEREN COMPANY
         </div>
         <button 
           onClick={toggleMenu}
-          className="group flex items-center space-x-3 focus:outline-none bg-white/50 backdrop-blur-md px-4 py-2 rounded-sm border border-black/10"
+          className="group flex items-center space-x-3 focus:outline-none"
         >
           <span className="text-[10px] md:text-xs font-black uppercase tracking-widest text-black group-hover:opacity-50 transition-opacity">
             {isOpen ? 'CLOSE' : 'MENU'}
           </span>
-          <div className="w-6 h-6 md:w-8 md:h-8 border border-black flex items-center justify-center overflow-hidden">
-             <div className={`w-full h-full bg-[#3B82F6] transition-transform duration-500 ${isOpen ? 'translate-y-0' : 'translate-y-full'}`}></div>
+          <div className="w-8 h-8 md:w-10 md:h-10 border border-black flex items-center justify-center overflow-hidden">
+             <div className={`w-full h-full bg-blue-500 transition-transform duration-500 ${isOpen ? 'translate-y-0' : 'translate-y-full'}`}></div>
           </div>
         </button>
       </nav>
@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
         </div>
         
         <div className="absolute bottom-12 flex flex-col items-center">
-          <p className="text-[10px] font-bold tracking-[0.3em] opacity-40 uppercase mb-4">Seren Company Universe</p>
+          <p className="text-[10px] font-bold tracking-[0.3em] opacity-40 uppercase mb-4">Seren Group Universe</p>
           <div className="flex space-x-8">
             <a href="#" className="text-xs font-black uppercase hover:opacity-50 transition-opacity border-b border-black">Instagram</a>
             <a href="#" className="text-xs font-black uppercase hover:opacity-50 transition-opacity border-b border-black">Youtube</a>
