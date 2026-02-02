@@ -63,16 +63,16 @@ const App: React.FC = () => {
 
         {/* Work Section (ID: work) */}
         <section id="work" className="flex flex-col">
-          <div className="px-6 md:px-12 pt-12 pb-5 border-y border-black flex justify-between items-center bg-[#E0D7FF]">
-             <h2 className="relative z-10 flex flex-col leading-none tracking-tighter uppercase font-black">
+          <div className="px-6 md:px-12 pt-12 pb-5 border-y border-black flex justify-end items-end bg-[#E0D7FF]">
+             <h2 className="relative z-10 flex flex-col items-end w-full leading-none tracking-tighter uppercase font-black text-right">
                   <span className="text-6xl md:text-[90px] text-black mb-1">
                     SEREN
                   </span>
                    <span className="text-6xl md:text-[90px] text-outline mt-1">
                     Project
                   </span>
-                  <p className="text-xs font-bold uppercase tracking-widest opacity-80 max-w-xs mt-1 leading-relaxed">
-                 세렌에서 진행하고 있는 프로젝트를 소개합니다
+                  <p className="text-xs font-bold uppercase tracking-widest opacity-80 max-w-xs mt-6 leading-relaxed self-end">
+                 세렌에서 진행하고 있는<br /> 프로젝트를 소개합니다
                  </p>
                 </h2>
           </div>
